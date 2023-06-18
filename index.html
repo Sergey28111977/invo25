@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/invo25/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVO Academy JS Starter with Vite</title>
+  <script type="module" crossorigin src="/invo25/assets/index-96a38ef7.js"></script>
+  <link rel="stylesheet" href="/invo25/assets/index-486e7d15.css">
+</head>
+
+<body>
+  <div id="home-page">
+        <!-- Модальное Окно  -->
+    <div id="overlay">
+      <div class="popup">
+        <button class="close" title="Закрыть" >
+          <img src="/invo25/assets/close-circle-1de24299.svg" alt="close-circle">
+        </button>
+
+        <img class="circle" src="/invo25/assets/circle-9e8e55d2.svg" alt="circle">
+          <h2 class="title">How do you feel about using our product?</h2>
+          <form id="test-form"> 
+            <div class="rating-area">
+              <input type="radio" id="star-1" name="rating" value="1">
+              <label for="star-1" title="Оценка «1»">1</label>
+
+              <input type="radio" id="star-2" name="rating" value="2">
+              <label for="star-2" title="Оценка «2»">2</label> 
+
+              <input type="radio" id="star-3" name="rating" value="3">
+              <label for="star-3" title="Оценка «3»">3</label> 
+
+              <input type="radio" id="star-4" name="rating" value="4">
+              <label for="star-4" title="Оценка «4»">4</label> 
+
+              <input type="radio" id="star-5" name="rating" value="5">
+              <label for="star-5" title="Оценка «5»">5</label>
+            </div>
+
+            <div class="extremly">
+              <p class="extremly__dissatisfied">Extremly dissatisfied</p>
+              <p class="extremly__satisfied">Extremly satisfied</p>
+            </div>
+
+            <button id="btn" class="btn" type="submit" disabled>Next step</button>
+          </form>
+    
+      </div>
+    </div>
+  </div>
+
+  
+  
+</body>
+
+</html>
